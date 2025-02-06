@@ -56,9 +56,10 @@ void draw() {
   // 3 % 3 = 0
 
   //Add the code for 6.c here
+  //First row white. Then different color every row
   if (counter == 0) {
-    red = int(random(255));
-    green = int(random(255));
-    blue = int(random(255));
+    red = int(random(256));
+    green = int(random(256));
+    blue = int(random(256));
   }
 }
